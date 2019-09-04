@@ -44,10 +44,10 @@ nnoremap <leader>b :Buffers<cr>
 nnoremap <leader>g :Ag<cr>
 
 " MOVING BETWEEN SPLITS
-nnoremap <C-j> <C-w>j
-nnoremap <C-k> <C-w>k
-nnoremap <C-h> <C-w>h
-nnoremap <C-l> <C-w>l
+noremap <C-j> <C-w>j
+noremap <C-k> <C-w>k
+noremap <C-h> <C-w>h
+noremap <C-l> <C-w>l
 
 " THEME
 set termguicolors
@@ -75,8 +75,8 @@ let g:lightline = {
       \ }
 
 " EMMET-VIM CONFIG
-"let g:user_emmet_leader_key=","
-let g:user_emmet_expandabbr_key = '<Tab>'
+let g:user_emmet_leader_key=","
+"let g:user_emmet_expandabbr_key = '<Tab>'
 let g:user_emmet_settings = webapi#json#decode(join(readfile(expand('~/.snippets_custom.json')), "\n"))
 
 " SYNTASTIC SETTINGS

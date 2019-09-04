@@ -24,7 +24,7 @@ prompt pure
 plugins=(git
 zsh-syntax-highlighting
 vi-mode
-#aws
+aws
 )
 # Below Line Loads Plugins, Don't Move
 source $ZSH/oh-my-zsh.sh
@@ -46,8 +46,8 @@ alias source_nvim="source ~/.config/nvim/init.vim"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # RBENV
-#export PATH="$HOME/.rbenv/bin:$PATH"
-#eval "$(rbenv init -)"
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
 
 # NVM
 #export NVM_DIR="$HOME/.nvm"
